@@ -1,0 +1,104 @@
+
+/*body*/
+body {
+  background-color: #FFF;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+}
+
+/*wrap*/
+#wrap {
+  user-select: none;
+  width: 800px;
+  height: 140px;
+  padding: 20px;
+  position: fixed;
+  margin: 10% 0% 0% 290px;
+  background-color: #000;
+  z-index: 1;
+  text-align: center;
+  color:#fff;
+
+}
+#txt {
+  width: 200px;
+  height: 1200px;
+  padding: 25px 45px;
+  text-align: justify;
+  font-family: arial;
+  color: #000;
+  position:fixed;
+}
+#holder{
+  width:440px;
+  height:30px;
+  margin:10px auto 20px auto;
+}
+
+/*slot machine*/
+.slotMachine {
+  width: 200px;
+  height: 30px;
+  margin: 0px 10px;
+  padding: 0px;
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  float:left;
+}
+.slotMachine div {
+  height: 30px;
+}
+
+/*button*/
+.button {
+  display: inline-block;
+  width: auto;
+  margin: 0px 10px;
+  padding: 10px 20px;
+  text-align: center;
+  border: 1px solid #FFF;
+}
+.button:hover {
+  cursor: pointer;
+  color: #CCC;
+}
+#aframe {
+  width:800px;
+  height:800px;
+  margin-left:290px;
+  position: relative;
+  opacity:0;
+}
+#title {
+  font-size:35px;
+  font-weight: 900;
+  line-height:27px;
+  margin-bottom:5px;
+}
+#gen{
+  font-size:13px;
+  line-height:11px;
+  overflow:hidden;
+}
+#gen2{
+  font-size:13px;
+  line-height:11px;
+  overflow:hidden;
+}
+#t2 {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 16px;
+  margin: 5px 0px;
+}
+/*misc*/
+.avoid-clicks {
+  pointer-events: none;
+}
+#im {
+  opacity:0;
+  padding-top: 10px;
